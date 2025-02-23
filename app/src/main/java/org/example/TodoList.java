@@ -4,15 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TodoList {
-    public static class Task {
-        String description;
-        boolean isComplete;
-
-        Task(String description) {
-            this.description = description;
-            this.isComplete = false;
-        }
-    }
 
     private ArrayList<Task> tasks;
 
